@@ -9,6 +9,16 @@
 
     $pass_encrypt=md5($pass);
 
+    //validación inputs
+    if($email==null && $pass==null){  
+        echo "<script> 
+            alert('Ingrese su correo y contraseña');
+            window.location='../index.php';
+            </script>";
+        exit();
+    }
+
+    //validación correo
     $verificar_correo=$conn->prepare("SELECT*FROM usuarios WHERE email='$correo'");
     $verificar_correo->execute();  //Ejcutamos el query
     $results = $verificar_correo->fetch(PDO::FETCH_ASSOC); //Obtenemos la fila del usuario enmcontrado, nos muestra cada campo con su valor asociado
@@ -20,6 +30,7 @@
         exit();
      }   
 
+     //validación usuario
      $verificar_usuario=$conn->prepare("SELECT*FROM usuarios WHERE user='$user'");
      $verificar_usuario->execute();
      if($verificar_usuario->rowCount()){
@@ -27,10 +38,10 @@
                  alert('Este usuario ya está registrado, intenta con otro');
                  window.location='../index.php';
               </script>";
- 
          exit();
      }
 
+     //Insert
      $sql = "INSERT INTO usuarios(full_name,email,user,pass,user_type) VALUES('$full_name','$correo','$user','$pass_encrypt','$type')";
      $stmt=$conn->prepare($sql);
      if($stmt->execute()){
@@ -41,8 +52,6 @@
      }else{
          echo "<script> alert('Ingresa los datos correctamente') </script>";
      }
-
-
 
 ?>
 
