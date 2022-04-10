@@ -1,6 +1,6 @@
 <?php include "includes/encabezado.php" ?>
 
-<div class="container-fluid">
+<div class="container-fluid" >
     <div class="row justify-content-center">
         <!-- IMAGEN -->
         <div class="col-md-5 p-5 m-3 bg-secondary">
