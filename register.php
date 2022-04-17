@@ -18,6 +18,7 @@
                 <option value="admin">Administrador</option>
             </select>
             <button>Registrarse</button>
+            
         </form>
 </body>
 </html>

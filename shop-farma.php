@@ -14,7 +14,7 @@
         session_destroy(); 
         die(); 
     }
-
+    
     if(isset($_POST['add_to_carrito'])){
         $product_name=$_POST['product_name'];
         $product_price=$_POST['product_price'];
@@ -28,7 +28,7 @@
         }else{
             $stmt=$conn->prepare("INSERT INTO carrito(user_id, name, price, quantity, image) VALUES('$user_id','$product_name','$product_price','$product_quantity','$product_image')");
             $stmt->execute();
-            $message[]="Producto añadido al carrito";
+            $message[]="Produto añadido al carrito";
         }
     }
     //session_destroy()
@@ -40,7 +40,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page User</title>
+    <title>Page Shop-Farma</title>
 
     <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -49,21 +49,18 @@
    <link rel="stylesheet" href="./assets/css/styles_all.css">
 </head>
 <body>
-    <?php include 'includes/header_all.php' ?>
-    
-    <section class="home">
-        <div class="content">
-            <h3>Nosotros pensamos en usted</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
-            <a href="about.php" class="white-btn">Descubre más</a>
-        </div>
-    </section>
+     <?php include 'includes/header_all.php' ?>
+
+     <div class="heading">
+        <h3>Nuestros productos</h3>
+        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Menu Usuario</a> / Tienda </p>
+    </div>
 
     <seection class="products">
         <h1 class="title">Lista de productos</h1>
         <div class="box-container">
             <?php
-                $select_products=$conn->prepare("SELECT * FROM productos LIMIT 6");
+                $select_products=$conn->prepare("SELECT * FROM productos");
                 $select_products->execute();
                 if($select_products->rowCount()>0){
                     while($row=$select_products->fetch(PDO::FETCH_ASSOC)){
@@ -86,33 +83,7 @@
                 }
             ?>
         </div>
-
-        <div class="load-nmore" style="margin-top: 1rem; text-align: center;">
-            <a class="option-btn" href="<?php echo constant("URL").'shop-farma.php' ?>">leer más</a>
-        </div>
     </seection>
-
-    <section class="about">
-        <div class="flex">
-            <div class="image">
-                <img src="assets/images/logo.png" alt="">
-            </div>
-
-            <div class="content">
-                <h3>Acerca de Nosotros</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur rem ut sunt officia aperiam itaque quo vitae quis officiis earum. Ducimus debitis placeat hic saepe sequi voluptatibus dolor vero sit, consequatur, harum tenetur! Quisquam animi iste, odio, facere commodi eaque, at placeat tempora iusto exercitationem sint aspernatur. Facilis, explicabo atque!</p>
-                <a href="about.php" class="btn">Leer Más</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="home-contact">
-        <div class="content">
-            <h3>Tienen alguna pregunta?</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
-            <a href="contacts.php" class="white-btn">Contáctanos</a>
-        </div>
-    </section>
 
 
     <?php include 'includes/footer_all.php' ?>

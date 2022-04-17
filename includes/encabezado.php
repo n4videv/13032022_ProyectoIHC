@@ -14,7 +14,7 @@
 </head>
 
 <body >
-    <div style="background-color: transparent; height:100vh; background-repeat: no-repeat; background-image: url(assets/images/img_farma.webp); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div style="background-color: transparent; height:100vh; background-repeat: no-repeat; background-image: url(assets/images/img_farma.webp);  background-position: center; ">
         <!-- HEADER -->
         <nav class="navbar navbar-expand-lg navbar-light mb-5" style="background-color: #2ab6e0;">
             <div class="container-fluid">

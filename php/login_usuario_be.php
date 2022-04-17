@@ -33,7 +33,7 @@
             $_SESSION['user_email']=$row['email'];
             $_SESSION['user_id']=$row['id'];
             // echo $_SESSION['user_name'];
-            header('location: ../usuario.php');
+            header('location: ../home_user.php');
         }
     }else{
         echo 
