@@ -1,4 +1,4 @@
-/****** HEADER USUARIO ****** */
+
 let userBox=document.querySelector(".header .header-2 .flex .user-box")
 let userBtn=document.querySelector("#user-btn");
 userBtn.addEventListener("click",()=>{
@@ -25,3 +25,4 @@ window.addEventListener("scroll",()=>{
         document.querySelector(".header .header-2").classList.remove("active");
     }
 })
+

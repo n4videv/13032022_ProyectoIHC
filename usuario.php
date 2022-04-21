@@ -20,6 +20,7 @@
                 </div>
             </div>
         </div>
+        
         <!-- DATOS -->
         <div class="col-md-5 p-5 m-3 bg-light">
             <!-- NOMBRE -->

@@ -27,7 +27,7 @@
             $_SESSION['admin_email']=$row['email'];
             $_SESSION['admin_id']=$row['id'];
             // echo $_SESSION['admin_name'];
-            header('location: ../home_admin.php');
+            header('location: ../admin_page.php');
         }else if($row['user_type']=='user'){
             $_SESSION['user_name']=$row['user'];
             $_SESSION['user_email']=$row['email'];

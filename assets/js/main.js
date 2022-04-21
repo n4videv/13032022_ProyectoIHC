@@ -1,5 +1,4 @@
 
-//Declaración de variables
 let $formulario_login=document.querySelector(".formulario__login"),
     $formulario_register=document.querySelector(".formulario__register"),
     $contenedor_login_register=document.querySelector(".contenedor__login-register"),

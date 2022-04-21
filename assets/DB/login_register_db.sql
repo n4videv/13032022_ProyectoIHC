@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-04-2022 a las 01:39:06
+-- Tiempo de generación: 21-04-2022 a las 22:29:37
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.2
 
@@ -83,7 +83,7 @@ CREATE TABLE `ordenes` (
 --
 
 INSERT INTO `ordenes` (`id`, `user_id`, `name`, `number`, `email`, `method`, `address`, `total_products`, `total_price`, `placed_on`, `payment_status`) VALUES
-(7, 9, 'user1', 1231234, 'user1@gmail.com', 'Cash', 'Lot.12-lugarX-distritoX-Lima-Perú,15', ', Panadol (1), Nine (1), Amoxicilina (1), Alcohol (1)', 76, '18-Apr-2022', 'pendiente');
+(7, 9, 'user1', 1231234, 'user1@gmail.com', 'Cash', 'Lot.12-lugarX-distritoX-Lima-Perú,15', ', Panadol (1), Nine (1), Amoxicilina (1), Alcohol (1)', 76, '18-Apr-2022', 'completado');
 
 -- --------------------------------------------------------
 
@@ -94,6 +94,7 @@ INSERT INTO `ordenes` (`id`, `user_id`, `name`, `number`, `email`, `method`, `ad
 CREATE TABLE `productos` (
   `id` int(11) NOT NULL,
   `name` varchar(50) NOT NULL,
+  `details` varchar(100) NOT NULL,
   `price` int(100) NOT NULL,
   `image` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -102,11 +103,11 @@ CREATE TABLE `productos` (
 -- Volcado de datos para la tabla `productos`
 --
 
-INSERT INTO `productos` (`id`, `name`, `price`, `image`) VALUES
-(1, 'Panadol', 20, 'panadol.png'),
-(2, 'Nine', 30, 'nine_pañal.png'),
-(3, 'Amoxicilina', 20, 'amox.png'),
-(4, 'Alcohol', 6, 'alcohol.png');
+INSERT INTO `productos` (`id`, `name`, `details`, `price`, `image`) VALUES
+(72, 'Panadol', '1 tableta', 15, 'panadol.png'),
+(73, 'Amoxicilina', '1 caja', 24, 'amox.png'),
+(74, 'Alcohol', '1 botella', 15, 'alcohol.png'),
+(75, 'Pañal Ninet', '1 bolsa', 40, 'ninet.png');
 
 -- --------------------------------------------------------
 
@@ -173,7 +174,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `carrito`
 --
 ALTER TABLE `carrito`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT de la tabla `mensaje`
@@ -185,19 +186,19 @@ ALTER TABLE `mensaje`
 -- AUTO_INCREMENT de la tabla `ordenes`
 --
 ALTER TABLE `ordenes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -30,7 +30,7 @@
  }
 
  
-/************* MESSAGES ***************/
+
  .message{
    position: sticky;
    top:0;
@@ -63,7 +63,6 @@
 }
 
 
-/************* HEADER ***************/
 .header .header-1{
     background-color: var(--light-bg);
  }
@@ -176,7 +175,7 @@
  }
 
 
-/***** BUTTONS *****/
+
  .btn,
  .option-btn,
  .delete-btn,
@@ -216,8 +215,6 @@
 
 
 
-
-/***** MAIN-USER *****/
 .home{
    min-height: 70vh;
    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/img_farma.webp) no-repeat;
@@ -298,7 +295,6 @@
 }
 
 
-/******** ABOUT *******/
 .about .flex{
    max-width: 1200px;
    margin: 2rem auto;
@@ -328,7 +324,7 @@
 }
 
 
-/******* CABECERA ********/
+
 .heading{
    min-height: 50vh;
    display: flex;
@@ -356,7 +352,7 @@
    text-decoration: underline;
 }
 
-/******** CLIENTES ********/
+
 .reviews {
    background-color: var(--light-bg);
 }
@@ -413,7 +409,7 @@
    margin-top: 1rem;
 }
 
-/******** DUEÑOS ********/
+
 .authors .box-container{
    max-width: 1200px;
    margin: 0rem auto;
@@ -471,7 +467,6 @@
    background-color: var(--white);
 }
 
-/***** CONTÁCTANOS *****/
 .contact form{
    background-color: var(--light-bg);
    border-radius: .5rem;
@@ -610,7 +605,7 @@
 }
 
 
-/**** CAJA ****/
+
 .display-order{
    max-width: 1200px;
    margin: 0 auto;
@@ -707,7 +702,6 @@
 }
 
 
-/******* BUSCADOR ******/
 .search-form form{
    max-width: 90%;
    margin: 1rem auto;
@@ -747,7 +741,7 @@
    font-size: 1.7rem;
 }
 
-/***** FOOTER *****/
+
 .footer{
    background-color: var(--light-bg);
 }
@@ -796,7 +790,7 @@
 
 
 
-/***** RESPONSIVE *****/
+
  @media (max-width:768px){
 
     #menu-btn{
