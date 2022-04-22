@@ -324,26 +324,26 @@
 }
 
 
-
 .heading{
-   min-height: 50vh;
-   display: flex;
-   flex-flow: column;
-   align-items: center;
-   justify-content: center;
-   gap: 1rem;
-   background: url(../images/img_farma.webp) no-repeat;
+   min-height: 55vh;
+   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/fama_center.webp) no-repeat;
    background-size: cover;
    background-position: center;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   align-items: center;
+   justify-content: center;
+
 }
 .heading h3{
    font-size: 4rem;
-   color: var(--black);
+   color: var(--white);
    text-transform: uppercase;
 }
 .heading p{
    font-size: 2rem;
-   color: var(--light-color);
+   color: var(--light-white);
 }
 .heading p a{
    color: var(--sky-blue);
@@ -603,7 +603,6 @@
    opacity: .8;
    user-select: none;
 }
-
 
 
 .display-order{

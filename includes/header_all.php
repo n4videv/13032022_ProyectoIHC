@@ -21,7 +21,7 @@ if(isset($message)){
                 <a href="#" class="fab fa-linkedin"></a>
             </div>
             
-            <p> Nuevo <a href="<?php echo constant("URL").'login_register.php' ?>">login</a> | <a href="<?php echo constant("URL").'login_register.php' ?>">Register</a></p>
+            <p> Nuevo <a href="<?php echo constant("URL").'login_register.php' ?>">Login</a> | <a href="<?php echo constant("URL").'login_register.php' ?>">Registro</a></p>
         </div>
     </div>
 
@@ -33,7 +33,7 @@ if(isset($message)){
                 <a href="<?php echo constant("URL").'home_user.php' ?>">Menu Usuario</a>
                 <a href="<?php echo constant("URL").'about.php' ?>">Nosotros</a>
                 <a href="<?php echo constant("URL").'shop-farma.php' ?>">Tienda farmacia</a>
-                <a href="<?php echo constant("URL").'contacts.php' ?>">Contactos</a>
+                <a href="<?php echo constant("URL").'contacts.php' ?>">Contáctanos</a>
                 <a href="<?php echo constant("URL").'orders.php' ?>">Ordenes</a>
             </nav>
 

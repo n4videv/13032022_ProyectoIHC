@@ -23,7 +23,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page About</title>
+    <title>Nosotros</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -32,13 +32,13 @@
    <link rel="stylesheet" href="./assets/css/styles_all.css">
 </head>
 <body>
-    <?php include 'includes/header_all.php' ?>
+    <?php include 'includes/header_all.php'; ?>
     
     <div class="heading">
         <h3>Acerca de Nosotros</h3>
         <p> <a href="<?php echo constant("URL").'home_user.php'?>">Menu Usuario</a> / about </p>
     </div>
-
+    
     <section class="about">
         <div class="flex">
             <div class="image">
@@ -143,7 +143,7 @@
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
                 </div>
-                <h3>Juan PerezC</h3>
+                <h3>Juan Perez1</h3>
             </div>
 
             <div class="box">
@@ -177,6 +177,28 @@
                     <a href="#" class="fab fa-linkedin"></a>
                 </div>
                 <h3>Juan Perez4</h3>
+            </div>
+
+            <div class="box">
+                <img src="assets/images/profile-user-lg.png" alt="">
+                    <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Juan Perez5</h3>
+            </div>
+
+            <div class="box">
+                <img src="assets/images/profile-user-lg.png" alt="">
+                    <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+                <h3>Juan Perez6</h3>
             </div>
         </div>
     </section>

@@ -74,7 +74,7 @@
             <?php
             if(isset($_POST['submit'])){
                 $item_search=$_POST['search'];
-                $select_products=$conn->prepare("SELECT * FROM productos WHERE name='$item_search'");
+                $select_products=$conn->prepare("SELECT * FROM productos WHERE name LIKE '%$item_search%'");
                 $select_products->execute();
     
                 if($select_products->rowCount()>0){
@@ -88,7 +88,7 @@
                 <input type="hidden" name="product_name" value="<?php echo $row['name']; ?>">
                 <input type="hidden" name="product_price" value="<?php echo $row['price']; ?>">
                 <input type="hidden" name="product_image" value="<?php echo $row['image']; ?>">
-                <input type="submit" class="btn" value="add to cart" name="add_to_carrito">
+                <input type="submit" class="btn" value="Agregar a carrito" name="add_to_carrito">
             </form>
             <?php
                     }

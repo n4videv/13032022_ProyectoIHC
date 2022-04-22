@@ -47,7 +47,7 @@
    
     <link rel="stylesheet" href="./assets/css/styles_admin.css">
     
-    <title>Órdenes}</title>
+    <title>Pedidos</title></title>
 </head>
 <body>
     

@@ -3,18 +3,18 @@
     <div class="box-container">
         <div class="box">
             <h3>Nos redirgimos:</h3>
-             <a href="../home_user.php">Menu Usuario</a>
-             <a href="../about.php">Nosotros</a>
-             <a href="../shop-farma.php">Tienda farmacia</a>
-             <a href="../contacts.php">Contactos</a>
+            <a href="<?php echo constant("URL").'home_user.php' ?>">Menu Usuario</a>
+                <a href="<?php echo constant("URL").'about.php' ?>">Nosotros</a>
+                <a href="<?php echo constant("URL").'shop-farma.php' ?>">Tienda farmacia</a>
+                <a href="<?php echo constant("URL").'contacts.php' ?>">Contáctanos</a>
         </div>
 
         <div class="box">
             <h3>Link Extras:</h3>
-            <a href="../login.php">Login</a>
-            <a href="../register.php">Registro</a>
-            <a href="../shop-farma.php">Carrito</a>
-            <a href="../orders.php">Ordenes</a>
+            <a href="<?php echo constant("URL").'login_register.php' ?>">Login</a>
+            <a href="<?php echo constant("URL").'login_register.php' ?>">Registro</a>
+            <a href="<?php echo constant("URL").'carrito.php' ?>">Carrito</a>
+            <a href="<?php echo constant("URL").'orders.php' ?>">Ordenes</a>
         </div>
         
         <div class="box">

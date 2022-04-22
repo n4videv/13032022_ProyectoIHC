@@ -14,9 +14,9 @@ if(isset($message)){
     <div class="flex">
         <a href="<?php echo constant("URL").'admin_page.php';?>" class="logo"><span>Panel-</span>Administrador </a>
         <nav class="navbar">
-            <a href="<?php echo constant('URL').'admin_page.php'; ?>">Página principal</a>
+            <a href="<?php echo constant('URL').'admin_page.php'; ?>">Dashboard</a>
             <a href="<?php echo constant('URL').'admin_products.php'; ?>">Productos</a>
-            <a href="<?php echo constant('URL').'admin_orders.php'; ?>">Órdenes</a>
+            <a href="<?php echo constant('URL').'admin_orders.php'; ?>">Pedidos</a>
             <a href="<?php echo constant('URL').'admin_users.php'; ?>">Usuarios</a>
             <a href="<?php echo constant('URL').'admin_contacts.php'; ?>">Mensajes</a>
         </nav>

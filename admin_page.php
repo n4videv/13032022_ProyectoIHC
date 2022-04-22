@@ -127,7 +127,6 @@
 
     </section>
 
-         
-    <script src="assets/js/main_admin.js"></script>
+    <script src="assets/js/main_admins.js"></script>
 </body>
 </html>
