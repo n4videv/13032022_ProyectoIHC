@@ -54,7 +54,7 @@
     <section class="home">
         <div class="content">
             <h3>Nosotros pensamos en usted</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
+            <p>No somos una farmacia más y ya. Somos la farmacia con la que siempre puedes y podrás contar.</p>
             <a href="about.php" class="white-btn">Descubre más</a>
         </div>
     </section>

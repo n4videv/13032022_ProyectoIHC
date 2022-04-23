@@ -54,7 +54,7 @@
     <?php include 'includes/header_all.php' ?>
     <div class="heading">
         <h3>Contáctanos</h3>
-        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Menu Usuario</a> / Contáctanos </p>
+        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Inicio</a> / Contáctanos </p>
     </div>
 
     <section class="contact">

@@ -36,7 +36,7 @@
     
     <div class="heading">
         <h3>Acerca de Nosotros</h3>
-        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Menu Usuario</a> / about </p>
+        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Inicio</a> / Nosotros </p>
     </div>
     
     <section class="about">
@@ -47,7 +47,7 @@
 
             <div class="content">
                 <h3>Por qué elegirnos?</h3>
-                <p>Nosotros te ofrecemos una variedad de productos para la salud, ademas contamos con un servicio de entrega para que no tenga que estar dirigiéndose  a nuestro establecimiento y con varios medios de pago.</p>
+                <p>Somos una farmacia que ofrece variedad de productos, los cuales son distribuidos a precios módicos y efectivos. Ahora también por el medio digital. Es la mejor opción local, puedes realizar tus compras de forma vitual, lista tus productos médicos en tu carrito y realiza tu pedido. Puede pasar por tus productos en nuestra farmacia o podemos enviarlo por delivery.</p>
                 <a href="<?php echo constant("URL").'about.php'?>" class="btn">Leer más</a>
             </div>
         </div>
@@ -132,7 +132,7 @@
     </section>
 
     <section class="authors">
-    <h1 class="title">Dueños y Empleados:</h1>
+        <h1 class="title">Dueños y Empleados:</h1>
         <div class="box-container">
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
@@ -152,7 +152,7 @@
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
-                </div>
+                    </div>
                 <h3>Carlos Enrique Tome</h3>
             </div>
 
@@ -163,13 +163,13 @@
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
-                </div>
-                <h3>Marcela Gomez R.</h3>
+                    <h3>Marcela Gomez R.</h3>
+                    </div>
             </div>
-
         </div>
     </section>
 
+    
     <?php include 'includes/footer_all.php' ?>
 
     <script src="assets/js/main_all.js"></script>

@@ -40,7 +40,7 @@
     <?php include 'includes/header_all.php' ?>
     <div class="heading">
         <h3>Mis Ordenes</h3>
-        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Menu Usuario</a> / Ordenes </p>
+        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Inicio</a> / Ordenes </p>
     </div>
 
     <div class="full-ordenes">
@@ -54,14 +54,14 @@
             ?>
                 <div class="box">
                     <p>Fecha: <span><?php echo $row['placed_on']; ?></span></p>
-                    <p>Name: <span><?php echo $row['name']; ?></span></p>
-                    <p>Number: <span><?php echo $row['number']; ?></span></p>
+                    <p>Nombre: <span><?php echo $row['name']; ?></span></p>
+                    <p>Celular: <span><?php echo $row['number']; ?></span></p>
                     <p>Email: <span><?php echo $row['email']; ?></span></p>
                     <p>Dirección: <span><?php echo $row['address']; ?></span></p>
                     <p>Método de Pago: <span><?php echo $row['method']; ?></span></p>
-                    <p>Tus órdenes: <span><?php echo $row['total_products']; ?></span></p>
+                    <p>Productos: <span><?php echo $row['total_products']; ?></span></p>
                     <p>Precio Total: s/.<span><?php echo $row['total_price']; ?></span></p>
-                    <p>Estado del pedido: <span style="color:<?php if($row['payment_status']=='pendiente'){echo 'red';}else{echo 'green';} ?>"> <?php echo $row['payment_status'] ?></span></p>
+                    <p>Estado de la orden: <span style="color:<?php if($row['payment_status']=='pendiente'){echo 'red';}else{echo 'green';} ?>"> <?php echo $row['payment_status'] ?></span></p>
                 </div>
             <?php
                     }

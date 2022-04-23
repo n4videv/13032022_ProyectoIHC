@@ -30,9 +30,9 @@ if(isset($message)){
             <a href="<?php echo constant("URL").'home_user.php' ?>" class="logo">Cruz de Mayo</a>
 
             <nav class="navbar">
-                <a href="<?php echo constant("URL").'home_user.php' ?>">Menu Usuario</a>
+                <a href="<?php echo constant("URL").'home_user.php' ?>">Inicio</a>
                 <a href="<?php echo constant("URL").'about.php' ?>">Nosotros</a>
-                <a href="<?php echo constant("URL").'shop-farma.php' ?>">Tienda farmacia</a>
+                <a href="<?php echo constant("URL").'shop-farma.php' ?>">Farmacia</a>
                 <a href="<?php echo constant("URL").'contacts.php' ?>">Contáctanos</a>
                 <a href="<?php echo constant("URL").'orders.php' ?>">Ordenes</a>
             </nav>
