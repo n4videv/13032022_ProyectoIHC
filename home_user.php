@@ -54,7 +54,7 @@
     <section class="home">
         <div class="content">
             <h3>Nosotros pensamos en usted</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
+            <p>No somos una farmacia más y ya. Somos la farmacia con la que siempre puedes y podrás contar.</p>
             <a href="about.php" class="white-btn">Descubre más</a>
         </div>
     </section>
@@ -100,7 +100,7 @@
 
             <div class="content">
                 <h3>Acerca de Nosotros</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur rem ut sunt officia aperiam itaque quo vitae quis officiis earum. Ducimus debitis placeat hic saepe sequi voluptatibus dolor vero sit, consequatur, harum tenetur! Quisquam animi iste, odio, facere commodi eaque, at placeat tempora iusto exercitationem sint aspernatur. Facilis, explicabo atque!</p>
+                <p>Somos una farmacia que ofrece variedad de productos, los cuales son distribuidos a precios módicos y efectivos.</p>
                 <a href="about.php" class="btn">Leer Más</a>
             </div>
         </div>
@@ -109,7 +109,7 @@
     <section class="home-contact">
         <div class="content">
             <h3>Tienen alguna pregunta?</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+            <p>¡Háznosla saber a escribiéndonos un mensaje!</p>
             <a href="contacts.php" class="white-btn">Contáctanos</a>
         </div>
     </section>

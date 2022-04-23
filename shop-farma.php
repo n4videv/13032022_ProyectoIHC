@@ -53,7 +53,7 @@
 
      <div class="heading">
         <h3>Nuestros productos</h3>
-        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Menu Usuario</a> / Tienda </p>
+        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Inicio</a> / Farmacia </p>
     </div>
 
     <seection class="products">

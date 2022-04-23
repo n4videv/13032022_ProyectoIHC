@@ -57,7 +57,7 @@
     
     <div class="heading">
         <h3>Carrito de compras</h3>
-        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Menu Usuario</a> / Carrito </p>
+        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Inicio</a> / Carrito </p>
     </div>
 
     <section class="carrito">s
