@@ -163,8 +163,8 @@
                     <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
-                    <h3>Marcela Gomez R.</h3>
                     </div>
+                <h3>Marcela Gomez R.</h3>
             </div>
         </div>
     </section>
