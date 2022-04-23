@@ -100,7 +100,7 @@
 
             <div class="content">
                 <h3>Acerca de Nosotros</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur rem ut sunt officia aperiam itaque quo vitae quis officiis earum. Ducimus debitis placeat hic saepe sequi voluptatibus dolor vero sit, consequatur, harum tenetur! Quisquam animi iste, odio, facere commodi eaque, at placeat tempora iusto exercitationem sint aspernatur. Facilis, explicabo atque!</p>
+                <p>Somos una farmacia que ofrece variedad de productos, los cuales son distribuidos a precios módicos y efectivos. Ahora también por el medio digital. Es la mejor opción local, puedes realizar tus compras de forma vitual, lista tus productos médicos en tu carrito y realiza tu pedido. Puede pasar por tus productos en nuestra farmacia o podemos enviarlo por delivery.</p>
                 <a href="about.php" class="btn">Leer Más</a>
             </div>
         </div>
@@ -109,7 +109,7 @@
     <section class="home-contact">
         <div class="content">
             <h3>Tienen alguna pregunta?</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+            <p>¡Háznosla saber a escribiéndonos un mensaje!</p>
             <a href="contacts.php" class="white-btn">Contáctanos</a>
         </div>
     </section>

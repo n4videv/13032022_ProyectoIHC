@@ -47,8 +47,7 @@
 
             <div class="content">
                 <h3>Por qué elegirnos?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, tempora dolores earum veritatis a in distinctio ipsum asperiores beatae atque facilis itaque tenetur aliquid deserunt minus nemo provident vel voluptatum qui quos, impedit culpa numquam? Reprehenderit, unde esse eos vitae dignissimos voluptate architecto placeat, neque aliquam quidem error. Quasi, reprehenderit?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam asperiores aliquid nostrum, velit ipsum explicabo odio temporibus iste maiores facere similique dolorem minima fuga id sit quis laudantium ipsa. Hic expedita qui quaerat animi repudiandae quibusdam laborum nemo consectetur, reprehenderit quod magni eius fugiat! In veniam fugit voluptate? Inventore, sit?</p>
+                <p>Nosotros te ofrecemos una variedad de productos para la salud, ademas contamos con un servicio de entrega para que no tenga que estar dirigiéndose  a nuestro establecimiento y con varios medios de pago.</p>
                 <a href="<?php echo constant("URL").'about.php'?>" class="btn">Leer más</a>
             </div>
         </div>
@@ -60,7 +59,7 @@
 
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat odit ipsam iste voluptatem odio ipsum distinctio ratione dolor reprehenderit explicabo.</p>
+                <p>Es buena la atención, realizamos nuestro pedido y en menos de 4h lo recibimos en casa</p>
                 <div class="starts">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -72,68 +71,68 @@
 
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae. Alias nostrum at obcaecati dolores dolor in et consequuntur saepe?</p>
+                <p>Apuesto por el sistema, ya no hago cola como amtes lo hacía, ahora compro más tranquilo.</p>
                 <div class="starts">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <h3>Juan Perez</h3>
+                <h3>Lucas Pereira</h3>
             </div>
 
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae. Alias nostrum at obcaecati dolores dolor in et consequuntur saepe?</p>
+                <p>Me ayuda, por que ya no tengo que ir a exponerme a un posible contagio.</p>
                 <div class="starts">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <h3>Juan Perez</h3>
+                <h3>Juan Bernardo</h3>
             </div>
 
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae. Alias nostrum at obcaecati dolores dolor in et consequuntur saepe?</p>
+                <p>Estoy seguro de que será un mejor sistema, espero mejore en el diseño, funcionalidad, experiencia de usuario, etc.</p>
                 <div class="starts">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <h3>Juan Perez</h3>
+                <h3>Percy Huamán</h3>
             </div>
 
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae. Alias nostrum at obcaecati dolores dolor in et consequuntur saepe?</p>
+                <p>Me ayuda mucho, si bien hay veces que el stock no tiene productos, por la plataforma realizo el pedido y me dicen en cuanto tiempo podría obtener el producto.</p>
                 <div class="starts">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <h3>Juan Perez</h3>
+                <h3>Luis Quispe</h3>
             </div>
 
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae. Alias nostrum at obcaecati dolores dolor in et consequuntur saepe?</p>
+                <p>Desde ahora realizaré las compras por esta plataformas, hay varios motivos por el cual hacerlo, y uno de ellos es el tiempo.</p>
                 <div class="starts">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star-half-alt"></i>
                 </div>
-                <h3>Juan Perez</h3>
+                <h3>Maria Delgado</h3>
             </div>
         </div>
     </section>
 
     <section class="authors">
-        <h1 class="title">Dueños y Empleados:</h1>
+    <h1 class="title">Dueños y Empleados:</h1>
         <div class="box-container">
             <div class="box">
                 <img src="assets/images/profile-user-lg.png" alt="">
@@ -143,7 +142,7 @@
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
                 </div>
-                <h3>Juan Perez1</h3>
+                <h3>Liz Gomez Ramon</h3>
             </div>
 
             <div class="box">
@@ -154,7 +153,7 @@
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
                 </div>
-                <h3>Juan Perez2</h3>
+                <h3>Carlos Enrique Tome</h3>
             </div>
 
             <div class="box">
@@ -165,44 +164,11 @@
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="#" class="fab fa-linkedin"></a>
                 </div>
-                <h3>Juan Perez3</h3>
+                <h3>Marcela Gomez R.</h3>
             </div>
 
-            <div class="box">
-                <img src="assets/images/profile-user-lg.png" alt="">
-                    <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-                <h3>Juan Perez4</h3>
-            </div>
-
-            <div class="box">
-                <img src="assets/images/profile-user-lg.png" alt="">
-                    <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-                <h3>Juan Perez5</h3>
-            </div>
-
-            <div class="box">
-                <img src="assets/images/profile-user-lg.png" alt="">
-                    <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                </div>
-                <h3>Juan Perez6</h3>
-            </div>
         </div>
     </section>
-
 
     <?php include 'includes/footer_all.php' ?>
 
