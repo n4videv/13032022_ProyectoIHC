@@ -57,8 +57,8 @@
     <?php include 'includes/header_all.php' ?>
     
     <div class="heading">
-        <h3>search page</h3>
-        <p> <a href="<?php echo constant('URL')?>home_user.php">Menu Usuario</a> / Buscar </p>
+        <h3>Busqueda</h3>
+        <p> <a href="<?php echo constant('URL')?>home_user.php">Inicio</a> / Buscar </p>
     </div>
 
     <section class="search-form">
