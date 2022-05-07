@@ -54,7 +54,7 @@
     <section class="home">
         <div class="content">
             <h3>Nosotros pensamos en usted</h3>
-            <p>No somos una farmacia más y ya. Somos la farmacia con la que siempre puedes y podrás contar.</p>
+            <p>No somos una Botica más y ya. Somos la farmacia con la que siempre puedes y podrás contar.</p>
             <a href="about.php" class="white-btn">Descubre más</a>
         </div>
     </section>
@@ -100,7 +100,7 @@
 
             <div class="content">
                 <h3>Acerca de Nosotros</h3>
-                <p>Somos una farmacia que ofrece variedad de productos, los cuales son distribuidos a precios módicos y efectivos. Ahora también por el medio digital. Es la mejor opción local, puedes realizar tus compras de forma vitual, lista tus productos médicos en tu carrito y realiza tu pedido. Puede pasar por tus productos en nuestra farmacia o podemos enviarlo por delivery.</p>
+                <p>Somos una Botica que ofrece variedad de productos, los cuales son distribuidos a precios módicos y efectivos. Ahora también por el medio digital. Es la mejor opción local, puedes realizar tus compras de forma vitual, lista tus productos médicos en tu carrito y realiza tu pedido. Puede pasar por tus productos en nuestra farmacia o podemos enviarlo por delivery.</p>
                 <a href="about.php" class="btn">Leer Más</a>
             </div>
         </div>

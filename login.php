@@ -8,7 +8,7 @@
 </head>
 <body>
         <form action="php/login_usuario_be.php" class="formulario__login" method="POST">
-            <h2>Inciar Sesión</h2>
+            <h2>Iniciar Sesión</h2>
             <input type="text" placeholder="Ingrese su correo" name="correo">
             <input type="password" placeholder="Ingrese su contraseña" name="pass">
             <button>Ingresar</button>

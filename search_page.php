@@ -32,7 +32,7 @@
         }else{
             $stmt=$conn->prepare("INSERT INTO carrito(user_id, name, price, quantity, image) VALUES('$user_id','$product_name','$product_price','$product_quantity','$product_image')");
             $stmt->execute();
-            $message[]="Produto añadido al carrito";
+            $message[]="Producto añadido al carrito";
         }
     }
 

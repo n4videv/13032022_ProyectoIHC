@@ -97,7 +97,7 @@
         </div>
 
         <div class="carrito_total">
-            <p>Total generado: <span>$<?php echo $total;?></span> </p>
+            <p>Total generado: <span>s/.<?php echo $total;?></span> </p>
             <div class="flex">
                 <a class="option-btn" href="<?php echo constant('URL').'shop-farma.php' ?>">Continuar comprando</a>
                 <a class="btn <?php echo($total>1)?'':'disabled' ?>" href="<?php echo constant('URL').'checkout.php' ?>" >Pasar a la caja</a>
@@ -105,7 +105,7 @@
         </div>
     </section>
     
-
+    
     <?php include 'includes/footer_all.php' ?>
 
     <script src="assets/js/main_all.js"></script>

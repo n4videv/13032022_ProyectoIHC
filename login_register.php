@@ -1,8 +1,9 @@
 <?php
+    
     session_start();
     
     if(isset($_SESSION['usuario'])){
-        header('location: home.php');
+        header('location: index.php');
     }
 ?>
 
@@ -25,7 +26,7 @@
                 <div class="caja__trasera-login">
                     <h3>¿Ya tienes una cuenta?</h3>
                     <p>Inicia Sesión para entrar en la página</p>
-                    <button id="btn__iniciar-sesion">Inicar Sesión</button>
+                    <button id="btn__iniciar-sesion">Iniciar Sesión</button>
                 </div>
                 <div class="caja__trasera-register">
                     <h3>¿Aún no tienes una cuenta?</h3>

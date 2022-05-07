@@ -28,7 +28,7 @@
         }else{
             $stmt=$conn->prepare("INSERT INTO carrito(user_id, name, price, quantity, image) VALUES('$user_id','$product_name','$product_price','$product_quantity','$product_image')");
             $stmt->execute();
-            $message[]="Produto añadido al carrito";
+            $message[]="Producto añadido al carrito";
         }
     }
     //session_destroy()
@@ -53,7 +53,7 @@
 
      <div class="heading">
         <h3>Nuestros productos</h3>
-        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Inicio</a> / Farmacia </p>
+        <p> <a href="<?php echo constant("URL").'home_user.php'?>">Inicio</a> / Botica </p>
     </div>
 
     <seection class="products">

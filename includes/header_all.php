@@ -32,7 +32,7 @@ if(isset($message)){
             <nav class="navbar">
                 <a href="<?php echo constant("URL").'home_user.php' ?>">Inicio</a>
                 <a href="<?php echo constant("URL").'about.php' ?>">Nosotros</a>
-                <a href="<?php echo constant("URL").'shop-farma.php' ?>">Farmacia</a>
+                <a href="<?php echo constant("URL").'shop-farma.php' ?>">Botica</a>
                 <a href="<?php echo constant("URL").'contacts.php' ?>">Contáctanos</a>
                 <a href="<?php echo constant("URL").'orders.php' ?>">Ordenes</a>
             </nav>
